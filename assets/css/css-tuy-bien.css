@@ -1,0 +1,26 @@
+#name-customer, #email-customer, #subject-customer, #message-customer{font-size: 1.5rem;}
+
+#message-customer .wpcf7-form-control-wrap textarea, #name-customer .wpcf7-form-control-wrap input[type="text"]{color: black;}
+
+#name-customer .wpcf7-form-control-wrap input[type="text"] {color: white;}
+
+#email-customer .wpcf7-form-control-wrap input[type="email"] {color: white}
+
+#subject-customer .wpcf7-form-control-wrap input[type="text"] {color: white}
+
+input.wpcf7-form-control {color: white; font-size: 1.5rem;}
+
+.wpcf7-response-output {color: white;}
+
+
+
+---------------------------------------------------
+
+Social Icon Footer- widget
+
+<ul class="social-icons" style="width: 100%;">
+<li style="display: inline;"><a href="#"><img src="http://demo.smnet.vn/quangcaotaxi/wp-content/uploads/2018/08/facebook-2429746_640.png" style="width: 46px; height: 46px;  -webkit-filter: grayscale(1); filter: grayscale(1);"></a></li>
+<li style="display: inline;"><a href="#"><img src="http://demo.smnet.vn/quangcaotaxi/wp-content/uploads/2018/08/google-plus-940316_640.png" style="width: 46px; height: 46px; -webkit-filter: grayscale(1); filter: grayscale(1); border-radius: 7px;"></a></li>
+<li style="display: inline;"><a href="#"><img src="http://demo.smnet.vn/quangcaotaxi/wp-content/uploads/2018/08/youtube-2433301_640.png" style="width: 46px; height: 46px; -webkit-filter: grayscale(1); filter: grayscale(1);"></a></li>
+<li style="display: inline;"><a href="#"><img src="http://demo.smnet.vn/quangcaotaxi/wp-content/uploads/2018/08/vimeo-881496_640.png" style="width: 46px; height: 46px; -webkit-filter: grayscale(1); filter: grayscale(1);"></a></li></ul>
+<style>ul.social-icons li a img:hover {-webkit-filter: none !important; filter: none !important; }</style>

@@ -1,0 +1,93 @@
+div.term_light:hover
+{
+    background-color: orange;
+    cursor: pointer;
+} 
+
+/* div.term_light p {clear: both; height: 50%; font-weight: bold;} */
+div.term_light p {clear: both; font-weight: bold;}
+
+.readmore_tuyendung:hover { cursor: pointer; }
+
+div.post_taxanomy .my_post_all_more .row {margin-bottom: 0;}
+
+.all_mypost_ajax_more  {cursor: pointer; width: 80%;}
+.all_mypost_ajax_more span:hover {color: white;}
+
+/* .all_mypost_ajax_more */
+
+
+/* CUSTOMER LOGO SLIDER - start */
+@media screen and (min-width: 380px) { div#slider {margin-left: 29%;} }
+
+@media screen and (min-width: 600px) {
+    /* div#slider {width: 100%;} */
+    div#slider ul {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (min-width: 748px) { div#slider p.control_next{margin-left: 95%;} }
+
+@media screen and (min-width: 768px) {
+    div#slider {width: 100%; margin-left:0;}
+    div#slider ul {
+        margin-left: 16%;
+    }
+    div#slider p.control_next {
+        margin-left: 96.5%;
+    }
+}
+
+@media screen and (min-width: 906px) {
+    div#slider ul {
+        margin-left: 21%;
+    }
+}
+
+@media screen and (min-width: 967px) {
+    div#slider ul {
+        margin-left: 12%;
+    }
+}
+
+@media (min-width: 1154px) {
+    div#slider ul {
+        margin-left: 8%;
+    }
+}
+
+@media (min-width: 1200px) { div#slider ul{margin-left: 10%;} }
+
+@media (min-width: 1280px) {
+    div#slider ul {
+        /* margin-left: 16%; */
+    }
+}
+
+@media (min-width: 1900px) {
+    div#slider p.control_next {
+        margin-left: 97%;
+    }
+    div#slider ul {
+        margin-left: 8%;
+    }
+}
+/* customer logo slider - end */
+
+/* ------------------------------------------------------------------------------------------ */
+/* @media screen and (max-width: 371px) {
+    .all_mypost_ajax_more {width: 40%;}
+    
+    .parallax-index {font-size: 1rem;}
+
+} */
+@media screen and (min-width: 380px) { .all_mypost_ajax_more {width: 80%;} }
+
+@media screen and (min-width: 600px) { .all_mypost_ajax_more {width: 50%;} }
+
+@media screen and (min-width: 993px) { .all_mypost_ajax_more {width: 35%;} }
+
+@media (min-width: 1240px) {
+    .all_mypost_ajax_more {width: 25%;}
+}

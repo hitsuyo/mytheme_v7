@@ -1,0 +1,235 @@
+/*
+Theme Name: My Theme
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: MyTheme brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mytheme
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+/* .my-custom-main-menu-class{
+    margin: 0 auto;
+    margin-left: 50px;
+} */
+
+/* .bg-header{
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.logo{
+    margin-left: 292px;
+    margin-top: 20px;
+    display: inline;
+}
+.logo a{ width:100%; height: 100%;}
+.logo a img {
+    width: 70px;
+}
+
+.main-menu{
+    display: inline;
+    width: 60%;
+    height: 100%;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.my-custom-main-menu-class{
+   width: 100%;
+
+   z-index: 10;
+}
+
+
+div.my-custom-main-menu-class ul{
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+    text-decoration: none;
+    display: inline-block;
+    background-color: gray;
+}
+div.my-custom-main-menu-class li {
+
+    font-size: 1.35rem;
+    text-decoration: none;
+    line-height: 0;
+}
+
+.my-custom-main-menu-class ul li a{
+	text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.menu-item63_appear{display: block;}
+
+#lines-button {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    margin-right: 10px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+
+.post_type_book {margin-bottom: 0;}
+
+
+
+#quote{background-color: #004A85;}
+
+.copyright{text-align: center; font-size: 1.2rem; color: #FFFFFF; padding: 2px;}
+
+
+
+.footer-so-1 #new-products_block_right .widgettitle, .footer-so-2 #new-products_block_right .widgettitle, .footer-so-3 #new-products_block_right .widgettitle
+{
+    font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 480px) {
+    .footer-so-1 #new-products_block_right .widgettitle, .footer-so-2 #new-products_block_right .widgettitle, .footer-so-3 #new-products_block_right .widgettitle
+    {font-size: 1.6rem;}
+
+    .logo a{
+
+        margin: 0 auto;
+    }
+
+
+}
+@media screen and (min-width: 600px) {
+    .footer-so-1 #new-products_block_right .widgettitle, .footer-so-2 #new-products_block_right .widgettitle, .footer-so-3 #new-products_block_right .widgettitle
+    {font-size: 2rem;}
+
+    .logo a{
+        margin-left: 41%;
+    } 
+    
+    .logo a img {
+        width: 100px;
+        height: 100px;
+    }  
+
+    .book_thumbnail{width: 100%; z-index: -1; padding-left: 0; }
+}
+@media only screen and (min-width: 768px) {
+    .footer-so-1 #new-products_block_right .widgettitle, .footer-so-2 #new-products_block_right .widgettitle, .footer-so-3 #new-products_block_right .widgettitle
+    {font-size: 1.8rem;}
+
+    .logo a{
+        margin-left: 41%;
+    } 
+    
+    .logo a img {
+        width: 80px;
+        height: 80px;
+    }  
+}
+
+@media only screen and (min-width: 785px) {
+    .footer-so-1 #new-products_block_right .widgettitle, .footer-so-2 #new-products_block_right .widgettitle, .footer-so-3 #new-products_block_right .widgettitle
+    {font-size: 1.6rem;}
+}
+
+@media (min-width: 800px) {
+
+}
+
+@media screen and (min-width: 980px) {
+    .footer-so-1 #new-products_block_right .widgettitle, .footer-so-2 #new-products_block_right .widgettitle, .footer-so-3 #new-products_block_right .widgettitle
+    {font-size: 1.7rem;}
+
+    .logo a{
+        margin-left: 43%;
+    }
+
+}
+@media screen and (min-width: 993px) {
+    #header-menu .col{
+        padding: 0;
+    }
+
+    .logo a{
+        margin-left: 0;
+    }
+
+    .logo a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #lines-button{
+        margin-top: 20px;
+        margin-left: 76%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-so-1 #new-products_block_right .widgettitle, .footer-so-2 #new-products_block_right .widgettitle, .footer-so-3 #new-products_block_right .widgettitle
+    {font-size: 1.8rem;}
+
+    .logo{
+        margin-left: 0;
+    }
+
+    .logo a img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .my-custom-main-menu-class{
+        width: 100%;
+        display: inline;
+     }
+
+     div.my-custom-main-menu-class ul{padding-top: 7px; background-color: transparent;} 
+
+
+     div.my-custom-main-menu-class li {
+
+        font-size: 20px;
+        display: inline;
+    }
+    div.my-custom-main-menu-class li a {color: black;}
+
+    
+    .post_type_book {margin-bottom: 200px;}
+}
+@media (min-width: 1025px) {
+
+}
+
+@media (min-width: 1240px) {
+    #lines-button{display: none;}
+    .main-menu{display: block;}
+
+    div.my-custom-main-menu-class{margin-left: 22%;}
+
+}
+
+@media (min-width: 1280px) {
+
+} */
+
